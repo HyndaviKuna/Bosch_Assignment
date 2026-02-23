@@ -12,18 +12,26 @@
   padding: 0; 
   box-sizing: border-box; 
 }
-
-html, body {
-  overflow-x: hidden;
+.main-content{
+  /* margin: 0 !important; */
+    /* padding: 90px 1rem 2rem !important; */
+    overflow-x: auto !important;
+    /* width: 100vw !important; */
+}
+html {
+  overflow-x: auto !important;
+  /* overflow-x: hidden; */
 }
 
 body { 
+   overflow-x: auto !important;
   font-family: 'Segoe UI', Tahoma, Geneva, sans-serif; 
   background: var(--xyz-light);
   color: var(--xyz-dark);
 }
 
-.app { 
+.app {
+   overflow-x: auto !important; 
   display: flex; 
   min-height: 100vh; 
   position: relative;

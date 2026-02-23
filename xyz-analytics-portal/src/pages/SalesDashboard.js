@@ -6,9 +6,9 @@ export default function SalesDashboard() {
       <h1>Sales Performance Dashboard</h1>
       <div
         style={{
-           height: "100vh", width: "100%", marginTop:"20px"  
-          //  ,transform: "scale(1.1)",
-      //  transformOrigin: "top center",
+           height:"auto", overflow: "hidden", width: "100%", marginTop:"20px"
+                ,transform: "scale(1.0)",
+       transformOrigin: "top center",
         }}
       >
       <iframe 
@@ -17,6 +17,9 @@ export default function SalesDashboard() {
         className="powerbi-container"
         frameBorder="0"
         allowFullScreen={true}
+    //     style={{
+    //   width: "90%",
+    // }}
       />
       </div>
     </div>
