@@ -13,7 +13,7 @@ export default function QualityDashboard() {
       >
       <iframe 
         title="Quality Dashboard"
-        src="https://drive.google.com/file/d/1RsofVuvZiolmSgLtjPyRf2m0ytVejmfG/view?usp=drive_link"
+        src="https://drive.google.com/file/d/1RsofVuvZiolmSgLtjPyRf2m0ytVejmfG/preview"
         className="powerbi-container"
         allowFullScreen={true}
       />
