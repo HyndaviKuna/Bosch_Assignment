@@ -9,11 +9,10 @@ export default function SalesDashboard() {
            height:"auto", overflow: "hidden", width: "100%", marginTop:"20px"
                 ,transform: "scale(1.0)",
        transformOrigin: "top center",
-        }}
-      >
+        }} >
       <iframe 
         title="Sales Dashboard"
-        src="https://drive.google.com/file/d/1zrsszDHczGlZHMWjWbCtC16UJaRIDoIg/preview"
+        src="https://drive.google.com/file/d/1FtWDfkFuWNuG9R_UG8EPT7fK6Lca2E-K/preview"
         className="powerbi-container"
         allowFullScreen={true}
       />
